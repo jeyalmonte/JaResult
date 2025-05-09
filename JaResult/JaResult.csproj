@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Version>1.0.0</Version>
+	<Authors>Jeyson Almonte </Authors>
+	<Company>JaResult</Company>
+	<Description>Package to implement the pattern result in .NET </Description>
+	<PackageId>JaResult</PackageId>
+	<RepositoryUrl>https://github.com/jeyalmonte/JaResult</RepositoryUrl>
+	<PackageTags>result;pattern;functional;error-handling</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
