@@ -1,12 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
    <PropertyGroup>
 	<TargetFrameworks>net7.0;net8.0</TargetFrameworks>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
   <PropertyGroup>
-	<Version>1.0.0</Version>
+	<Version>2.0.0</Version>
 	<Authors>Jeyson Almonte </Authors>
 	<Company>JaResult</Company>
 	<Description>Package to implement the pattern result in .NET </Description>
@@ -15,6 +17,9 @@
 	<PackageId>JaResult</PackageId>
 	<RepositoryUrl>https://github.com/jeyalmonte/JaResult</RepositoryUrl>
 	<PackageTags>result;pattern;functional;error-handling</PackageTags>
+	<PackageReleaseNotes>
+		Include multiple Target Frameworks
+	</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
