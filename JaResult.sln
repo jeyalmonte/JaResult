@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaResult", "src\JaResult\JaResult.csproj", "{7ADACD40-62DA-4394-AF6A-12903D40B5A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaResult.Tests", "tests\JaResult.Tests\JaResult.Tests.csproj", "{FE063C06-8332-4428-970C-AA0239F4FE27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,27 @@ Global
 		{7ADACD40-62DA-4394-AF6A-12903D40B5A5}.Release|x64.Build.0 = Release|Any CPU
 		{7ADACD40-62DA-4394-AF6A-12903D40B5A5}.Release|x86.ActiveCfg = Release|Any CPU
 		{7ADACD40-62DA-4394-AF6A-12903D40B5A5}.Release|x86.Build.0 = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|x64.Build.0 = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE063C06-8332-4428-970C-AA0239F4FE27}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7ADACD40-62DA-4394-AF6A-12903D40B5A5} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{FE063C06-8332-4428-970C-AA0239F4FE27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF655B1-C9C1-451C-AA10-EB66A15B0214}
 	EndGlobalSection
 EndGlobal
