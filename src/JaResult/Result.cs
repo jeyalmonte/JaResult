@@ -45,7 +45,7 @@ public readonly record struct Result<TValue> : IResult<TValue>
 	/// Creates a failed result with the given errors.
 	/// </summary>
 	public static Result<TValue> Failure(params Error[] errors) =>
-		new(errors: [.. errors], hasError: true);
+		new(errors: new List<Error>(errors), hasError: true);
 
 	/// <summary>
 	/// Creates a failed result with the given list of errors.
