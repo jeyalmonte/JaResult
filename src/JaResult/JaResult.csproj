@@ -8,10 +8,10 @@
   </PropertyGroup>
 
   <PropertyGroup>
-	<Version>2.0.0</Version>
+	<Version>2.1.0</Version>
 	<Authors>Jeyson Almonte </Authors>
 	<Company>JaResult</Company>
-	<Description>Package to implement the pattern result in .NET </Description>
+	<Description>Package to implement the result pattern in .NET </Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	<PackageId>JaResult</PackageId>
